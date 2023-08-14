@@ -54,4 +54,4 @@ if st.button('Show Recommendation'):
                 st.write("**Overview:**", movie_data['overview'])
                 st.write("**Genres:**", ', '.join(genre['name'] for genre in movie_data['genres']))
                 st.write("**Cast:**", movie_data['cast'])
-                st.write("**Crew:**", movie_data['crew'])
+                st.write("**Directed by:**", movie_data['crew'])
