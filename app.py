@@ -30,8 +30,8 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System')
-movies = pickle.load(open('C:/Users/Harshvardhan/Desktop/Important/movie_list.pkl','rb'))
-similarity = pickle.load(open('C:/Users/Harshvardhan/Desktop/Important/similarity.pkl','rb'))
+movies = pickle.load(open('C:/Users/Harshvardhan/Desktop/Important/movie_list.pkl','rb')) #provide the Path where pkl file is created
+similarity = pickle.load(open('C:/Users/Harshvardhan/Desktop/Important/similarity.pkl','rb')) #provide the Path where pkl file is created
 
 
 movie_list = movies['title'].values
