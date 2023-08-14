@@ -11,10 +11,12 @@ you will get 2 csv files
 2.tmdb_5000_credits
 
 
-After downloading and extracting provide the file paths in Movie Recommendation System.py
+After downloading and extracting provide the file paths in Movie Recommendation System.py 
 
-movies=pd.read_csv("**PATH OF** tmdb_5000_movies.csv")
-credits=pd.read_csv("**PATH OF** tmdb_5000_credits.csv")
+
+*movies=pd.read_csv("**PATH OF** tmdb_5000_movies.csv")*
+
+*credits=pd.read_csv("**PATH OF** tmdb_5000_credits.csv")*
 
 
 run the Movie Recommendation System.py and 2 pkl files will be created.
